@@ -1,7 +1,7 @@
 
 -- Copyright (c) 2010, Sven Kirmess
 
-local Version = 1
+local Version = 2
 local Loaded = false
 
 local function log(msg)
@@ -10,7 +10,7 @@ local function log(msg)
 		return
 	end
 
-	DEFAULT_CHAT_FRAME:AddMessage("HideGeneralInRaid: "..msg)
+	DEFAULT_CHAT_FRAME:AddMessage("Hide General In Raid: "..msg)
 end
 
 local function EventHandler(self, event, ...)
@@ -60,10 +60,8 @@ local function EventHandler(self, event, ...)
 			if (( arg1 == "YOU_JOINED" ) or ( arg1 == "YOU_CHANGED" ) ) then
 				local inInstance, instanceType = IsInInstance()
 				if ( ( inInstance ) and ( instanceType == "raid" ) ) then
-					log("hiding chat channel general")
 					ChatFrame_RemoveChannel(DEFAULT_CHAT_FRAME, "General")
 				else
-					log("unhiding chat channel general")
 					ChatFrame_AddChannel(DEFAULT_CHAT_FRAME, "General")
 				end
 			end
