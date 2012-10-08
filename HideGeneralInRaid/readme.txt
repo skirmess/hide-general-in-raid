@@ -5,6 +5,9 @@ Hides the general chat channel when you're inside a raid dungeon
 
 *** Changelog
 
+Version 5
+ * Updated for MoP.
+
 Version 4
  * Updated TOC for WoW 4.3.0
 
