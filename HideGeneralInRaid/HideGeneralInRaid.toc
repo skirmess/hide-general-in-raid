@@ -1,4 +1,4 @@
-## Interface: 50001
+## Interface: 50200
 ## Title: HideGeneralInRaid
 ## Author: Sven Kirmess
 ## Notes: Hides the general chat while in a raid instance
