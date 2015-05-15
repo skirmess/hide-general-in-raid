@@ -5,6 +5,11 @@ Hides the general chat channel when you're inside a raid dungeon
 
 *** Changelog
 
+Version 9
+ * Updated TOC for WoW 6.1.0
+ * Changed project web page to GitHub
+   https://github.com/skirmess/hide-general-in-raid
+
 Version 8
  * Updated TOC for WoW 6.0.0
 

@@ -1,9 +1,9 @@
-## Interface: 60000
+## Interface: 60100
 ## Title: HideGeneralInRaid
 ## Author: Sven Kirmess
 ## Notes: Hides the general chat while in a raid instance
 ## OptionalDeps:
 ## Dependencies:
 ## SavedVariables:
-## X-Website: http://code.google.com/p/hide-general-in-raid/
+## X-Website: https://github.com/skirmess/hide-general-in-raid
 HideGeneralInRaid.lua

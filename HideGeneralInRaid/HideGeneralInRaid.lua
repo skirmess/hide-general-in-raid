@@ -1,7 +1,7 @@
 
--- Copyright (c) 2010-2014, Sven Kirmess
+-- Copyright (c) 2010-2015, Sven Kirmess
 
-local Version = 8
+local Version = 9
 local Loaded = false
 
 local function log(msg)

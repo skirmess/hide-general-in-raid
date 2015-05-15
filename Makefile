@@ -1,7 +1,7 @@
 
 .PHONY: clean release
 
-VERSION=8
+VERSION=9
 NAME=HideGeneralInRaid
 
 clean:
